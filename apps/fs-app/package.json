@@ -3,12 +3,14 @@
   "name": "fs-app",
   "version": "0.0.0",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "devDependencies": {
     "@fs/shared": "workspace:*",
-    "@fs/core": "workspace:*"
+    "@fs/core": "workspace:*",
+    "@fs/ui": "workspace:*"
   }
 }

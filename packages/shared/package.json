@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "main": "./src/index.ts",
   "type": "module",
+  "private": true,
   "publishConfig": {
     "main": "lib/index.js",
     "types": "lib/index.d.ts"
@@ -11,6 +12,6 @@
   "scripts": {
     "dev": "vite",
     "lib": "vite build",
-    "test": "vitest run --reporter verbose"
+    "test": "vitest run"
   }
 }

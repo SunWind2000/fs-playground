@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "vue.volar",
+    "vitest.explorer",
+    "antfu.vite",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
