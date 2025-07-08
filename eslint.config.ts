@@ -8,6 +8,12 @@ import pluginVue from "eslint-plugin-vue";
 // More info at https://github.com/vuejs/eslint-config-typescript/#advanced-setup
 
 export default defineConfigWithVueTs(
+
+    globalIgnores(["**/dist/**", "**/dist-ssr/**", "**/coverage/**"]),
+
+    pluginVue.configs["flat/essential"],
+    vueTsConfigs.recommended,
+    
     {
         name: "app/files-to-lint",
         files: ["**/*.{ts,mts,tsx,vue}"],
@@ -31,10 +37,5 @@ export default defineConfigWithVueTs(
             // any可以作为类型
             "@typescript-eslint/no-explicit-any": "off",
         }
-    },
-
-    globalIgnores(["**/dist/**", "**/dist-ssr/**", "**/coverage/**"]),
-
-    pluginVue.configs["flat/essential"],
-    vueTsConfigs.recommended,
+    }
 );
