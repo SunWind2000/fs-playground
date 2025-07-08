@@ -3,8 +3,7 @@ import type { Config } from "tailwindcss";
 const config: Config = {
     content: [
         "./apps/**/src/**/*.{vue,ts,tsx,js,jsx,mdx}",
-        "./packages/**/src/**/*.{vue,ts,tsx,js,jsx,mdx}",
-        "node_modules/@fs/playground-ui/**/*.{vue,ts,tsx,js,jsx,mdx}"
+        "./packages/**/src/**/*.{vue,ts,tsx,js,jsx,mdx}"
     ],
     theme: {
     },
